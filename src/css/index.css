@@ -1,0 +1,111 @@
+
+/* 000000
+14213d
+fca311
+e5e5e5 */
+@font-face {
+    font-family:  "EB Garamond", serif;;
+    src: url('../../assets/font/EBGaramond-Italic-VariableFont_wght.ttf');
+
+}
+* {
+
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family:  "EB Garamond", serif;
+}
+
+
+div#header {
+    min-height: 250px;
+    background-color: #14213d;
+    line-height: 250px;
+  }
+  .sistema-solare__title {
+    text-align: center;
+    margin: 0;
+    color: #fca311ff;
+    font-size: 60px;
+    text-transform: capitalize;
+    word-spacing: 3px;
+    text-shadow: 2px 2px 2px #e5e5e5ff;
+  }
+  .bold {
+    font-weight: bold;
+  }
+  #main{
+    background-color: #e5e5e5ff;
+    padding: 20px;
+    
+  }
+  .sistema-solare_title{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 40px;
+  }
+  .sistema-solare {
+    background-color: #fca311ff ;
+    border: 3px solid #14213d;
+    padding: 20px;
+  }
+  .sistema-solare_body {
+    font-size: 19px;
+    line-height: 1.15;
+  }
+  .sistema-solare_body li{
+    list-style-image: url('../../assets/img/icons8-pianeta-8.png');
+  }
+  .pianeta-container{
+    margin: 20px 0 0;
+    font-size:0;
+  }
+ 
+  .pianeta-container__card{
+    width: calc(33.33333% - 20px);
+    font-size: 16px;
+    display: inline-block;
+    padding: 20px 0;
+    margin: 0 10px 20px;
+    border: 2px solid black;
+  }
+  .pianeta-container__card h2 {
+    text-align: center;
+    margin: 0;
+  }
+  .pianeta-container__head{
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px ridge black;
+  }
+  .pianeta-container__body{
+    padding: 20px;
+    
+  }
+  .pianeta-container__footer{
+    margin-top: 20px;
+    border-top: 2px ridge black;
+    padding-top: 20px;
+    text-align: center;
+    color: #14213d;
+    font-size: 25px;
+    cursor: pointer;
+  }
+  #footer{
+    background-color: #fca311ff ;
+    color: #14213dff;
+  }
+  #footer-container{
+    padding: 20px;
+  }
+  
+  dt, dd{
+    display: inline-block;
+    margin: 0;
+  }
+  dt{
+    min-width: 150px;
+  }
+  
+
